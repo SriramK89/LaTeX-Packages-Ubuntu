@@ -8,7 +8,7 @@ Installing packages for LaTeX:
 
   2.1. If there is no <package_name>.sty file found and <package_name>.ins file is present, run the following command in terminal after changing to the folder of downloaded package.
   
-      `latex <package_name>.ins`
+      latex <package_name>.ins
 
 3. Make a new folder inside the package directory of LaTeX software using the following command:
 

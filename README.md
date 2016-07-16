@@ -10,13 +10,11 @@ Installing packages for LaTeX:
   
       latex <package_name>.ins
 
-3. Make a new folder inside the package directory of LaTeX software using the following command:
+3. Come out of the package directory using **cd..** command.
 
-      `sudo mkdir /usr/share/texlive/texmf-dist/tex/latex/<package_name>`
+4. Now move the folder containing .sty files to the LaTeX software using the command:
 
-4. Now move the <package_name>.sty to the LaTeX software using the command:
-
-      `sudo mv <package_name>.sty /usr/share/texlive/texmf-dist/tex/latex/<package_name>/`
+      `sudo mv <folder_name> /usr/share/texlive/texmf-dist/tex/latex/`
 
 5. After moving, update the package repository of LaTeX using the command:
 
